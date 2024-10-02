@@ -115,3 +115,14 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+# To run this test:
+# 1. Make sure you're in the backend directory
+# 2. Run the following command in your terminal:
+#    python -m tests.mock_assistant_api
+#
+# This will execute the main() function, which simulates the questionnaire process
+# using the mock responses and prints the generated project plan.
+
+if __name__ == "__main__":
+    asyncio.run(main())
